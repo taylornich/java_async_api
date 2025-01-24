@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Implementing Timers</title>
+    </head>
+
+    <body>
+        <h1>Countdown Timer</h1>
+        <input type="number" id="timerInput" placeholder="Enter time in seconds">
+        <button onclick="startTimer()">Start Timer</button>
+        <div id="timerDisplay">Time Remaining: 0</div>
+    
+        <h2>Delayed Notification</h2>
+        <button onclick="showDelayedNotification(5000)">Show Notification After 5 seconds</button>
+    
+        <h2>Repeat Notification</h2>
+        <button onclick="startRepeatingNotifications()">Start Repeating Notifications</button>
+        <button onclick="stopRepeatingNotifications()">Stop Notifications</button>
+    
+        <script src="implementing_timers.js"></script>
+    </body>
+</html>
